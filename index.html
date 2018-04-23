@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tasty Treats</title>
+</head>
+<body>
+    
+    <nav>
+        <ul>
+            <li><a href="./">home</a></li>
+            <li><a href="./create">create</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="list-view" class="view">
+            <ul></ul>
+        </section>
+        <section id="details-view" class="view">details</section>
+        <section id="create-view" class="view">create</section>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdn.rawgit.com/visionmedia/page.js/master/page.js"></script>
+
+    <script src="./scripts/models/treat.js"></script>
+    <script src="./scripts/views/treat-view.js"></script>
+    <script src="./scripts/routes.js"></script>
+</body>
+</html>
